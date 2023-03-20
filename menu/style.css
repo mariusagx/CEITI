@@ -1,0 +1,61 @@
+body{
+    background-color: #776968;
+}
+
+nav{
+    width: 960px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    float: left;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+nav::before{
+
+    content: '';
+    display: block;
+    height: 60px;
+    width: 100%;
+    background: #292828;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: #fff;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+ul li a:hover{
+
+    background: #d34d43;
+}
